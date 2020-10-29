@@ -1,16 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap');
 
+/* Variables for brand colors and fonts */
 :root {
     --accent-color: #d85600;
     --dark-color: #616161;
     --medium-color: #c5c5c5;
+
     --main-font: 'Open Sans', sans-serif;
     --heading-font: 'Raleway', sans-serif;
 }
 
 body {
     font-family: var(--main-font);
+    background-color: #eeeeee;
 }
+
+.container {
+    background-color: white;
+}
+
+/* Headings */
 
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
@@ -25,8 +34,9 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    padding: 5px 50px;
+    padding: 7px 50px;
     font-weight: bold;
+    font-size: 2.3rem;
 }
 
 h2 {
@@ -42,7 +52,7 @@ h2 {
 
 /* Contact details */
 #contact-details {
-    margin: 50px 20px;;
+    margin: 50px auto;
     border-collapse: collapse;
 }
 
@@ -63,4 +73,19 @@ h2 {
 
 #contact-details tr {
     height: 30px;
+}
+
+/* Photo and description */
+
+#photo {
+    height: 500px;
+    background-image: url('../images/rosie.jpg');
+    background-size: cover;
+    background-position: center center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#description {
+    padding: 1.5rem;
 }
