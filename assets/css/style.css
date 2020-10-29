@@ -39,3 +39,28 @@ h2 {
 #title-heading {
     background-color: var(--accent-color);
 }
+
+/* Contact details */
+#contact-details {
+    margin: 50px 20px;;
+    border-collapse: collapse;
+}
+
+#contact-details .fas {
+    color: var(--dark-color);
+}
+
+#contact-details td {
+    border-left: solid 2px var(--accent-color);
+    padding-left: 1rem;
+}
+
+#contact-details th {
+    width: 30px;
+    text-align: center;
+    padding-right: 1rem;
+}
+
+#contact-details tr {
+    height: 30px;
+}
