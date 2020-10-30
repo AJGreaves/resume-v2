@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
 h1 {
     padding: 7px 50px;
     font-weight: bold;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
 }
 
 header h2 {
@@ -49,6 +49,7 @@ header h2 {
     text-align: right;
     padding: 10px 40px 10px 0;
     font-style: italic;
+    font-size: 1.5rem;
 }
 
 h3 {
@@ -117,7 +118,7 @@ nav {
     display: inline-block;
 }
 
-#about-me-heading {
+.grey-box-heading {
     padding: .5rem 1.5rem;
     border: 1px solid white;
     margin-bottom: 0;
@@ -136,4 +137,19 @@ nav {
     border-bottom: 2px solid var(--accent-color);
     width: 75px;
     margin: 10px auto 20px 0;
+}
+
+/* Media queries */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    header h2 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size:2.3rem;
+    }
+
+
 }
