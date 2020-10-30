@@ -143,6 +143,68 @@ nav {
     margin: 10px auto 20px 0;
 }
 
+/* Work history */
+
+#work-history {
+    background-color: var(--darker-color);
+    padding: 1.5rem;
+}
+
+#work-history h4 {
+    color: white;
+}
+
+#work-history h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#work-history p {
+    font-size: .8rem;
+    margin: 0;
+}
+
+.job-box {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid white;
+    color: white;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.job-left {
+    border-left: none;
+    text-align: right;
+}
+
+.job-right {
+    border-right: none;
+}
+
+#work-history:last-child {
+    border-bottom: 1px solid white;
+}
+
+.timeline-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+}
+
+.job-left > .timeline-circle {
+    position: absolute;
+    right: -8px;
+    top: 26px;
+}
+
+.job-right > .timeline-circle {
+    position: absolute;
+    left: -8px;
+    top: 26px;
+}
+
 /* Social links */
 
 #social-links ul {
@@ -163,7 +225,7 @@ nav {
 
 /* Skills - footer */
 
-footer h4 {
+footer h4, #work-history h4 {
     margin-top: .7rem;
     font-size: 1rem;
     text-transform: uppercase;
