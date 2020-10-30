@@ -9,6 +9,10 @@ Credits:
 - Django icon sourced from [icons8](https://icons8.com/icons/set/django)
 - Box-shadow code by [Samuel Thornton on codepen](https://codepen.io/sdthornton/pen/wBZdXq)
 
+
+Bugfix for GitHub Pages returning a 404 for the home page link taken from [Github Docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+- Add the following permalink code to the readme file:
+
 ---
 permalink: /index.html
 ---
