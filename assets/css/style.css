@@ -68,7 +68,7 @@ h2 {
 #contact-details th {
     width: 30px;
     text-align: center;
-    padding-right: 1rem;
+    padding: 6px 16px 0 0;
 }
 
 #contact-details tr {
