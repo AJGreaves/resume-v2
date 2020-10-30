@@ -122,7 +122,9 @@ nav {
     border: 1px solid white;
     margin-bottom: 0;
     color: white;
-    font-style: italic;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
 }
 
 .three-reasons-box {
