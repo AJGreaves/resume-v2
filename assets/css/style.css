@@ -167,7 +167,7 @@ nav {
 .job-box {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid var(--accent-color);
+    border: 1px solid white;
     color: white;
     padding: 1.5rem;
     position: relative;
@@ -205,6 +205,23 @@ nav {
     top: 26px;
 }
 
+/* progress bars */
+
+.progress {
+    margin-top: 1rem;
+    height: 1.5rem;
+    background-color: #eeeeee;
+}
+
+.progress-bar {
+    text-align: left;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    background-color: var(--medium-color);
+    color: var(--darker-color);
+    font-weight: bold;
+}
+
 /* Social links */
 
 #social-links ul {
@@ -231,6 +248,7 @@ footer h4, #work-history h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
+    font-weight: bold;
 }
 
 #skills {
