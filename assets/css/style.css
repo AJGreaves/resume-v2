@@ -4,6 +4,7 @@
 :root {
     --accent-color: #d85600;
     --dark-color: #616161;
+    --darker-color: #464646;
     --medium-color: #c5c5c5;
 
     --main-font: 'Open Sans', sans-serif;
@@ -62,7 +63,7 @@ h3 {
 
 /* Contact details */
 #contact-details {
-    margin: 65px auto;
+    margin: 30px auto;
     border-collapse: collapse;
 }
 
@@ -92,11 +93,13 @@ nav {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 400;
+    background-color: var(--darker-color);
 }
 
 /* Photo and description */
 
 #photo {
+    height: 100%;
     min-height: 500px;
     background-image: url('../images/rosie.jpg');
     background-size: cover;
@@ -141,15 +144,25 @@ nav {
 
 /* Media queries */
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #contact-details {
+        margin: 60px auto;
+        border-collapse: collapse;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     header h2 {
         font-size: 2rem;
     }
-
     h1 {
         font-size:2.3rem;
     }
-
-
 }
