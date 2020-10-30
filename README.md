@@ -8,3 +8,7 @@ Credits:
 - Code to rotate social icons on hover by [Ian Farb on codepen](https://codepen.io/ianfarb/pen/yqpmw)
 - Django icon sourced from [icons8](https://icons8.com/icons/set/django)
 - Box-shadow code by [Samuel Thornton on codepen](https://codepen.io/sdthornton/pen/wBZdXq)
+
+---
+permalink: /index.html
+---
