@@ -167,7 +167,7 @@ nav {
 .job-box {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid white;
+    border: 1px solid var(--accent-color);
     color: white;
     padding: 1.5rem;
     position: relative;
@@ -183,7 +183,7 @@ nav {
 }
 
 #work-history:last-child {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--accent-color);
 }
 
 .timeline-circle {
