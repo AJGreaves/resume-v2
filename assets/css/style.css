@@ -35,7 +35,7 @@ h1, h2, h3, h4 {
 #name-title-box {
     background-color: var(--dark-color);
     color: #fff;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 h1 {
@@ -61,7 +61,7 @@ h3 {
 
 /* Contact details */
 #contact-details {
-    margin: 50px auto;
+    margin: 65px auto;
     border-collapse: collapse;
 }
 
@@ -87,7 +87,7 @@ h3 {
 /* Navigation */
 
 nav {
-    margin-top: 80px;
+    margin-top: 70px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 400;
