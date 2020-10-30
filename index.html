@@ -15,8 +15,9 @@
 
 <body>
     <div class="container p-0">
-        <header class="row no-gutters">
-            <div class="col-4">
+        <!-- flex-column and flex-row classes reverse the heading column order on mobile screens-->
+        <header class="row no-gutters flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-4">
                 <table id="contact-details">
                     <tr>
                         <th><i class="fas fa-phone"></i></th>
@@ -36,7 +37,7 @@
                     </tr>
                 </table>
             </div>
-            <div id="name-title-box" class="col-8">
+            <div id="name-title-box" class="col-12 col-md-8">
                 <div class="row no-gutters">
                     <div class="col-6">
                         <h1>Rosie Odenkirk</h1>
@@ -45,30 +46,68 @@
                         <h2>Full Stack Developer</h2>
                     </div>
                 </div>
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav justify-content-between w-100">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Interests</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Github</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Download CV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </header>
         <div class="row no-gutters">
             <div class="col-4">
                 <div id="photo"></div>
-                <div id="description">
-                    <p>I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I
-                        bring to every project.</p>
-                    <p>I follow form as well as function. I know that the aesthetics of effective design,
-                        application speed, security and reliability combine to create a great user experience.</p>
-                    <p>I work quickly and effectively in getting things built and working across the stack. I'm an
-                        excellent
-                        communicator who thrives in bright, enthusiastic teams, and I'm also a self starter when
-                        working
-                        solo.</p>
-                </div>
             </div>
             <div class="col-8">
+                <div class="heading-box-wrapper">
+                    <h2 id="about-me-heading">About me</h2>
+                </div>
                 <div class="row">
-                    <div class="col-12">
-                        Education info here
+                    <div class="col-md-6 three-reasons-box">
+                        <h3>What do I do?</h3>
+                        <hr>
+                        <p>I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience
+                            that I
+                            bring to every project.</p>
                     </div>
-                    <div class="col-12">
-                        Experience info here
+                    <div class="col-md-6 three-reasons-box">
+                        <h3>How do I do it?</h3>
+                        <hr>
+                        <p>I follow form as well as function. I know that the aesthetics of effective design,
+                            application speed, security and reliability combine to create a great user experience.</p>
+                    </div>
+                    <div class="col-md-6 three-reasons-box">
+                        <h3>Why hire me?</h3>
+                        <hr>
+                        <p>I work quickly and effectively in getting things built and working across the stack. I'm an
+                            excellent
+                            communicator who thrives in bright, enthusiastic teams, and I'm also a self starter when
+                            working
+                            solo.</p>
                     </div>
                 </div>
             </div>
