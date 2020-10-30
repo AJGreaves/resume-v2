@@ -142,6 +142,44 @@ nav {
     margin: 10px auto 20px 0;
 }
 
+/* Social links */
+
+#social-links {
+    list-style: none;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#social-links > li {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 15px;
+}
+
+#social-links a {
+    color: var(--accent-color);
+}
+
+/* Code to rotate social links found at : https://codepen.io/ianfarb/pen/yqpmw */
+#social-links .fab {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+}
+
+#social-links .fab:hover {
+    transform: rotate(350deg);
+    -webkit-transform: rotate(350deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
