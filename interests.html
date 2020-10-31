@@ -11,6 +11,15 @@
         crossorigin="anonymous" />
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Rosie Odenkirk | Resume</title>
+
+    <!-- emailjs scripts-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_CQSk7h9Wyuw2xLhYG0hBX');
+        })();
+    </script>
 </head>
 
 <body>
@@ -60,14 +69,16 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="resume.html">Resume <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resume.html">Resume</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="interests.html">Interests</a>
+                                <a class="nav-link active" href="interests.html">Interests 
+                                    <span class="sr-only">(current)</span>
+                                </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Github</a>
@@ -80,77 +91,43 @@
                 </nav>
             </div>
         </header>
+
         <main class="row no-gutters">
-            <section id="work-history" class="col-12 col-md-4">
-                <h4>Work history</h4>
-                <div class="job-left job-box">
-                    <div class="timeline-circle"></div>
-                    <h5>National College of Art and Design (NCAD)</h5>
-                    <p>Sculptor in residence <br> 2003-2008</p>
-                </div>
-                <div class="job-right job-box">
-                    <div class="timeline-circle"></div>
-                    <h5>Fisher and Diaz Funeral Directors</h5>
-                    <p>Junior Embalmer <br> 2008-2014</p>
-                </div>
-                <div class="job-left job-box">
-                    <div class="timeline-circle"></div>
-                    <h5>Phantom Design Inc. Dublin</h5>
-                    <p>Junior Front End Developer <br> 2015-2018</p>
-                </div>
-                <div class="job-right job-box">
-                    <div class="timeline-circle"></div>
-                    <h5>Hooli Inc. Silicon Valley</h5>
-                    <p>Full Stack Web Developer <br> 2018-present</p>
-                </div>
+            <section class="col-12 col-md-4">
+                map here
             </section>
             <section class="col-12 col-md-8 pb-4">
                 <div class="heading-box-wrapper">
-                    <h2 class="grey-box-heading">My Skills</h2>
+                    <h2 class="grey-box-heading">Groups and societies</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 three-reasons-box">
-                        <h3>Front end</h3>
+                    <div class="col-12 col-md-6">
+                        <h3>Coding Grace</h3>
                         <hr>
-                        <p>I'm skilled in User Experience Design using the trinity of HTML/CSS/Javascript. I also have
-                            extensive experience in Front End Frameworks such as Angular and React</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae aspernatur harum
+                            accusantium voluptatum quam odio quia. Quod ipsa quidem in qui! Nulla sapiente veniam id,
+                            quos possimus aspernatur voluptate perspiciatis?</p>
                     </div>
-                    <div class="col-lg-6 three-reasons-box">
-                        <h3>Back end</h3>
+                    <div class="col-12 col-md-6">
+                        <h3>Django Girls</h3>
                         <hr>
-                        <p>I specialize in data-driven web applications. Many of my projects utilise document-based
-                            data. I use Python and Django in conjunction with MongoDB to process and present
-                            information.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae aspernatur harum
+                            accusantium voluptatum quam odio quia. Quod ipsa quidem in qui! Nulla sapiente veniam id,
+                            quos possimus aspernatur voluptate perspiciatis?</p>
                     </div>
-                    <div class="col-12 three-reasons-box">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
-                                aria-valuemin="0" aria-valuemax="100">HTML</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100">CSS</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 87%;" aria-valuenow="87"
-                                aria-valuemin="0" aria-valuemax="100">JavaScript & jQuery</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                aria-valuemin="0" aria-valuemax="100">Python</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="100">Django</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                                aria-valuemin="0" aria-valuemax="100">React</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                                aria-valuemin="0" aria-valuemax="100">Angular</div>
-                        </div>
+                    <div class="col-12 col-md-6">
+                        <h3>Full Stack NY</h3>
+                        <hr>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae aspernatur harum
+                            accusantium voluptatum quam odio quia. Quod ipsa quidem in qui! Nulla sapiente veniam id,
+                            quos possimus aspernatur voluptate perspiciatis?</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3>IoT Nation</h3>
+                        <hr>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae aspernatur harum
+                            accusantium voluptatum quam odio quia. Quod ipsa quidem in qui! Nulla sapiente veniam id,
+                            quos possimus aspernatur voluptate perspiciatis?</p>
                     </div>
                 </div>
             </section>
@@ -229,6 +206,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="assets/js/email.js"></script>
 </body>
 
 </html>
