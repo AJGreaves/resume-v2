@@ -224,7 +224,13 @@ hr {
 
 /* Interests page */
 
+.content-column a {
+    color: var(--accent-color);
+}
 
+.content-column a:hover {
+
+} 
 
 /* Social links */
 
@@ -268,17 +274,32 @@ label {
     opacity: .8;
 }
 
+/* Icons */
+
 /* Code to rotate social links found at : https://codepen.io/ianfarb/pen/yqpmw */
-#submit-btn > .fa-paper-plane {
+.spin-icon {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
 }
 
+.spin-icon:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+}
+
 /* Hovering over submit button rotates the child icon element */
-#submit-btn:hover > .fa-paper-plane {
-    transform: rotate(350deg);
-    -webkit-transform: rotate(350deg);
+#submit-btn:hover > .spin-icon {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+
+}
+/* Hovering over link rotates the child icon element */
+.content-column a:hover > .spin-icon {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
 
 }
@@ -327,25 +348,9 @@ footer h4, .left-side-grey-box h4 {
     padding: 1rem;
 }
 
-/* Code to rotate social links found at : https://codepen.io/ianfarb/pen/yqpmw */
-#social-links .fab {
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -webkit-transition: -webkit-transform 0.25s ease-in-out;
-}
-
-#social-links .fab:hover {
-    transform: rotate(350deg);
-    -webkit-transform: rotate(350deg);
-    -webkit-transition: -webkit-transform 0.25s ease-in-out;
-
-}
-
 a:hover {
     text-decoration: none;
 }
-
-
 
 /* Media queries */
 
