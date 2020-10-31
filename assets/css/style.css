@@ -349,10 +349,6 @@ label {
     border-color: var(--accent-color);
 }
 
-#gh-user-data p {
-    color: var(--accent-color);
-}
-
 /* Skills - footer */
 
 footer h4, .left-side-grey-box h4 {

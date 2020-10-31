@@ -80,3 +80,8 @@ function fetchGitHubInformation(event) {
 }
 
 $(document).ready(fetchGitHubInformation);
+
+$('#github-form').submit(function(event){
+    event.preventDefault();
+    fetchGitHubInformation(event);
+})

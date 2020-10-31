@@ -93,7 +93,7 @@
                         <h3>View my GitHub repos</h3>
                         <hr>
                         <p>You can also search on other github profiles</p>
-                        <div class="center-form">
+                        <form id="github-form">
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="github-username">GitHub Username</span>
@@ -101,13 +101,12 @@
                                 <input type="text" class="form-control" id="gh-username" value="octocat"
                                     aria-label="GitHub Username" aria-describedby="github-username">
                                 <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary" type="submit"
-                                        onsubmit="fetchGitHubInformation()">Search</button>
+                                    <button class="btn btn-outline-secondary" type="submit">Search</button>
                                 </div>
                             </div>
                             <div id="gh-user-data"></div>
                             <div id="gh-repo-data"></div>
-                        </div>
+                        </form>
                     </div>
 
                 </div>
