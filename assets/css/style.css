@@ -313,6 +313,46 @@ label {
 
 }
 
+/* Github page */
+
+.repo-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.repo-list li {
+    display: inline-block;
+}
+
+.repo-list li > a {
+    display: block;
+    background-color: var(--accent-color);
+    padding: .5rem 1rem;
+    margin: .5rem 1rem .5rem 0;
+    color: white;
+}
+
+.repo-list {
+    margin-top: 1rem;
+}
+
+.gh-avatar {
+    float: left;
+    margin-right: 1rem;
+}
+.clearfix {
+    clear: both;
+    padding-top: 1rem;
+}
+
+.btn-outline-secondary {
+    border-color: var(--accent-color);
+}
+
+#gh-user-data p {
+    color: var(--accent-color);
+}
+
 /* Skills - footer */
 
 footer h4, .left-side-grey-box h4 {
