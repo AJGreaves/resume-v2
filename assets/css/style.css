@@ -136,7 +136,7 @@ nav {
     padding: 0 2rem;
 }
 
-.three-reasons-box > hr {
+hr {
     border: none;
     border-bottom: 2px solid var(--accent-color);
     width: 75px;
@@ -238,6 +238,45 @@ nav {
 
 #social-links a {
     color: var(--accent-color);
+}
+
+/* contact page */
+#form-box {
+    padding: 0 2rem;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+#submit-btn {
+    background-color: var(--accent-color);
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    text-transform: uppercase;
+    padding: .2rem .7rem;
+    letter-spacing: 2px;
+    transition: 0.25s ease-in-out;
+}
+
+#submit-btn:hover {
+    opacity: .8;
+}
+
+/* Code to rotate social links found at : https://codepen.io/ianfarb/pen/yqpmw */
+#submit-btn > .fa-paper-plane {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+}
+
+/* Hovering over submit button rotates the child icon element */
+#submit-btn:hover > .fa-paper-plane {
+    transform: rotate(350deg);
+    -webkit-transform: rotate(350deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+
 }
 
 /* Skills - footer */
