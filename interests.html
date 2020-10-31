@@ -4,22 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosie Odenkirk | Interests</title>
+
+    <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font awesome css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
-    <link href="assets/css/style.css" rel="stylesheet">
-    <title>Rosie Odenkirk | Resume</title>
 
-    <!-- emailjs scripts-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            // https://dashboard.emailjs.com/admin/integration
-            emailjs.init('user_CQSk7h9Wyuw2xLhYG0hBX');
-        })();
-    </script>
+    <!-- Leaflet css -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <!-- Custom css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -95,6 +98,7 @@
         <main class="row no-gutters">
             <section id="map-column" class="col-12 col-md-4 left-side-grey-box">
                 <h4>Conferences & Meetups<br>Attended</h4>
+                <div id="map"></div>
             </section>
             <section class="col-12 col-md-8 pb-4">
                 <div class="heading-box-wrapper">
@@ -110,20 +114,22 @@
                             organize free, one-day programming workshops by providing tools, resources and support.
                             <br>
                             <a href="https://djangogirls.org/" target="_blank"
-                                aria-label="Visit Django Girls website (opens in a new tab)"><i class="fas fa-chevron-right spin-icon"></i> Django Girls</a>
+                                aria-label="Visit Django Girls website (opens in a new tab)"><i
+                                    class="fas fa-chevron-right spin-icon"></i> Django Girls</a>
                         </p>
-                        
+
                     </div>
                     <div class="col-12 col-lg-6 content-column">
                         <h3>Coding Grace</h3>
                         <hr>
                         <p>
                             Coding Grace are a group of developers based in Ireland who love to code and do other geeky
-                            and not necessarily crafty activities. 
-                            
+                            and not necessarily crafty activities.
+
                             <br>
                             <a href="https://codinggrace.com/" target="_blank"
-                                aria-label="Visit Coding Grace website (opens in a new tab)"><i class="fas fa-chevron-right spin-icon"></i> Coding Grace</a>
+                                aria-label="Visit Coding Grace website (opens in a new tab)"><i
+                                    class="fas fa-chevron-right spin-icon"></i> Coding Grace</a>
                         </p>
                     </div>
                     <div class="col-12 col-lg-6 content-column">
@@ -131,10 +137,11 @@
                         <hr>
                         <p>
                             Our meetup is an event where web designers and developers can come together to learn from
-                            and teach each other about emerging technologies. 
+                            and teach each other about emerging technologies.
                             <br>
                             <a href="https://www.meetup.com/javascript-full-stack-development/" target="_blank"
-                                aria-label="Visit Full Stack NY website (opens in a new tab)"><i class="fas fa-chevron-right spin-icon"></i> Full Stack NY</a>
+                                aria-label="Visit Full Stack NY website (opens in a new tab)"><i
+                                    class="fas fa-chevron-right spin-icon"></i> Full Stack NY</a>
                         </p>
                     </div>
                     <div class="col-12 col-lg-6 content-column">
@@ -145,9 +152,10 @@
                             professionals, & enthusiasts worldwide who are active in the Internet of Things (IoT).
                             <br>
                             <a href="https://www.meetup.com/NYCIOT/" target="_blank"
-                                aria-label="Visit the Internet of Things website (opens in a new tab)"><i class="fas fa-chevron-right spin-icon"></i> IoT Nation</a>
+                                aria-label="Visit the Internet of Things website (opens in a new tab)"><i
+                                    class="fas fa-chevron-right spin-icon"></i> IoT Nation</a>
                         </p>
-                        
+
                     </div>
                 </div>
             </section>
@@ -216,17 +224,24 @@
         </footer>
     </div>
 
-
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
+
+    <!-- Bootstrap scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script src="assets/js/email.js"></script>
+
+    <!--Leaflet script -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script src="assets/js/map.js"></script>
 </body>
 
 </html>

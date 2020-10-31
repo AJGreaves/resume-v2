@@ -228,9 +228,10 @@ hr {
     color: var(--accent-color);
 }
 
-.content-column a:hover {
-
-} 
+#map {
+    height: 500px;
+    margin: 1rem;
+}
 
 /* Social links */
 
