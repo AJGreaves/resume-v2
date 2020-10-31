@@ -132,8 +132,8 @@ nav {
     letter-spacing: 2px;
 }
 
-.three-reasons-box {
-    padding: 0 2rem;
+.content-column {
+    padding: 0 2rem 1rem 2rem;
 }
 
 hr {
@@ -145,12 +145,12 @@ hr {
 
 /* Work history */
 
-#work-history {
+.left-side-grey-box {
     background-color: var(--darker-color);
     padding: 1.5rem;
 }
 
-#work-history h4 {
+.left-side-grey-box h4 {
     color: white;
 }
 
@@ -222,6 +222,10 @@ hr {
     font-weight: bold;
 }
 
+/* Interests page */
+
+
+
 /* Social links */
 
 #social-links ul {
@@ -281,7 +285,7 @@ label {
 
 /* Skills - footer */
 
-footer h4, #work-history h4 {
+footer h4, .left-side-grey-box h4 {
     margin-top: .7rem;
     font-size: 1rem;
     text-transform: uppercase;
