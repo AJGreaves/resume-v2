@@ -25,8 +25,12 @@
 </head>
 
 <body>
-    <div class="container p-0">
-        <!-- flex-column and flex-row classes reverse the heading column order on mobile screens-->
+    <div class="container">
+        <!--
+            flex-column and flex-row classes reverse the heading column order on mobile screens.
+            This is done for stylistic reasons so that the white and dark backgrounds alternate when
+            columns are stacked on top of each other in mobile view.
+        -->
         <header class="row no-gutters flex-column-reverse flex-md-row">
             <div class="col-12 col-md-4">
                 <table id="contact-details">
@@ -219,7 +223,8 @@
                     <div class="col-4 col-lg-2 skill"><i class="fab fa-python"></i>
                         <h5>Python</h5>
                     </div>
-                    <div class="col-4 col-lg-2 skill"><img src="assets/images/django-icon.png" width="35" height="35" alt="django logo">
+                    <div class="col-4 col-lg-2 skill">
+                        <img src="assets/images/django-icon.png" width="35" height="35" alt="django logo">
                         <h5>Django</h5>
                     </div>
                     <div class="col-4 col-lg-2 skill"><i class="fab fa-react"></i>
