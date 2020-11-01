@@ -2,6 +2,9 @@
 
 An updated version of the Rosie Resume project for Code Institute
 
+## Tools
+- [imagecompressor.com](https://imagecompressor.com/) to optimze images for the web
+
 ## Libraries
 - [LeafletJS for maps](https://leafletjs.com/)
 
@@ -19,3 +22,7 @@ Bugfix for GitHub Pages returning a 404 for the home page link taken from [Githu
 ---
 permalink: /index.html
 ---
+
+## Testing
+
+Lighthouse to test for performance, Accessibility, Best Practices and SEO
