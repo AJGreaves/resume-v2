@@ -3,7 +3,7 @@
 An updated version of the Rosie Resume project for Code Institute
 
 ## Tools
-- [imagecompressor.com](https://imagecompressor.com/) to optimze images for the web
+- [convertio](https://convertio.co/) to optimize image for the web
 
 ## Libraries
 - [LeafletJS for maps](https://leafletjs.com/)
