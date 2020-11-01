@@ -104,6 +104,20 @@
                 <div id="form-box">
                     <h3>Got a project in mind? Let's work together!</h3>
                     <hr>
+
+                    <!--
+                        Form sends data to email js. name attribute values must match *exactly* the
+                        template variable names in curly brackets in the email js template 
+                        https://dashboard.emailjs.com/admin/templates/4sdxx4l
+                        
+                        for example: 
+
+                        in HTML
+                        name="contact_name"
+
+                        in emailjs template
+                        {{contact_name}}
+                    -->
                     <form id="contact-form">
                         <div class="form-row">
                             <div class="col-12 col-lg-6">
