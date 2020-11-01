@@ -334,10 +334,15 @@ label {
 
 .repo-list li > a {
     display: block;
-    background-color: var(--accent-color);
+    background-color: var(--darker-color);
     padding: .5rem 1rem;
     margin: .5rem 1rem .5rem 0;
     color: white;
+    transition: 0.23s ease-in-out;
+}
+
+.repo-list li > a:hover {
+    background-color: var(--accent-color);
 }
 
 .repo-list {
