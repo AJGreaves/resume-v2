@@ -5,6 +5,10 @@ An updated version of the Rosie Resume project for Code Institute
 ## Tools
 - [convertio](https://convertio.co/) to optimize image for the web
 - [LatLong.net](https://www.latlong.net/) to find Latitude and Longitude values for map locations
+- [AutoPrefixer](https://autoprefixer.github.io/) to make sure all CSS prefixes for different browsers were applied.
+- [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator) to validate all CSS
+- [W3C Markup Validator](https://validator.w3.org/) to validate all HTML
+
 
 ## Libraries
 - [LeafletJS for maps](https://leafletjs.com/)

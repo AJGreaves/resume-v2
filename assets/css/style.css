@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap');
 
 /* Variables for brand colors and fonts */
@@ -18,7 +25,8 @@ body {
 
 .container {
     background-color: white;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .row {
@@ -226,6 +234,8 @@ hr {
 
 .left-side-grey-box a {
     color: white;
+    -webkit-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
 }
 
@@ -284,6 +294,8 @@ label {
     text-transform: uppercase;
     padding: .2rem .7rem;
     letter-spacing: 2px;
+    -webkit-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
 }
 
@@ -295,27 +307,31 @@ label {
 
 /* Code to rotate social links found at : https://codepen.io/ianfarb/pen/yqpmw */
 .spin-icon {
-    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
 }
 
 .spin-icon:hover {
-    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
 }
 
 /* Hovering over submit button rotates the child icon element */
 #submit-btn:hover > .spin-icon {
-    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
 
 }
 /* Hovering over link rotates the child icon element */
 .left-side-grey-box a:hover > .spin-icon {
-    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -webkit-transition: -webkit-transform 0.25s ease-in-out;
 
@@ -338,6 +354,8 @@ label {
     padding: .5rem 1rem;
     margin: .5rem 1rem .5rem 0;
     color: white;
+    -webkit-transition: 0.23s ease-in-out;
+    -o-transition: 0.23s ease-in-out;
     transition: 0.23s ease-in-out;
 }
 
