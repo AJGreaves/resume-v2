@@ -2,12 +2,12 @@ function userInformationHTML(user) {
     return `
         <h4>${user.name}
             <span class="small-name">
-                (@<a href="${user.html_url}" target="_blank">${user.login}</a>)
+                (@<a href="${user.html_url}" target="_blank" rel="noopener">${user.login}</a>)
             </span>
         </h4>
         <div class="gh-content">
             <div class="gh-avatar">
-                <a href="${user.html_url}" target="_blank">
+                <a href="${user.html_url}" target="_blank" rel="noopener">
                     <img src="${user.avatar_url}" width="80" height="80" alt="${user.login}" />
                 </a>
             </div>
@@ -28,7 +28,7 @@ function repoInformationHTML(repos) {
 
     var listItemsHTML = repos.map(function (repo) {
         return `<li>
-                    <a href="${repo.html_url}" target="_blank">${repo.name}</a>
+                    <a href="${repo.html_url}" target="_blank" rel="noopener">${repo.name}</a>
                 </li>`;
     });
 
