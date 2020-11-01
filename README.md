@@ -4,6 +4,7 @@ An updated version of the Rosie Resume project for Code Institute
 
 ## Tools
 - [convertio](https://convertio.co/) to optimize image for the web
+- [LatLong.net](https://www.latlong.net/) to find Latitude and Longitude values for map locations
 
 ## Libraries
 - [LeafletJS for maps](https://leafletjs.com/)

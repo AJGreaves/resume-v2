@@ -269,10 +269,9 @@ label {
 }
 
 #submit-btn {
-    background-color: var(--accent-color);
+    background-color: var(--dark-color);
     color: white;
     font-size: 1.3rem;
-    border: none;
     text-transform: uppercase;
     padding: .2rem .7rem;
     letter-spacing: 2px;
@@ -280,7 +279,7 @@ label {
 }
 
 #submit-btn:hover {
-    opacity: .8;
+    background-color: var(--accent-color);
 }
 
 /* Icons */
