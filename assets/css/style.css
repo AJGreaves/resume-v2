@@ -225,6 +225,11 @@ hr {
 /* Interests page */
 
 .left-side-grey-box a {
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+
+.left-side-grey-box a:hover {
     color: var(--accent-color);
 }
 
@@ -235,6 +240,10 @@ hr {
 
 #groups h4 {
     margin-bottom: 1rem;
+}
+
+#groups hr {
+    margin-bottom: 0.5rem;
 }
 
 #map {
@@ -402,14 +411,14 @@ a:hover {
     }
 
     #map {
-        height: 700px;
+        height: 760px;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #map {
-        height: 550px;
+        height: 600px;
     }
 }
 
@@ -422,6 +431,6 @@ a:hover {
         font-size:2.3rem;
     }
     #map {
-        height: 500px;
+        height: 530px;
     }
 }
