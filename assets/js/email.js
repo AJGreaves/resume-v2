@@ -10,4 +10,4 @@ window.onload = function () {
                 alert("Ooops, something went wrong...", error);
             });
     });
-}
+};
