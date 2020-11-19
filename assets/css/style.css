@@ -149,7 +149,10 @@ hr {
     border: none;
     border-bottom: 2px solid var(--accent-color);
     width: 75px;
+    height: 2px;
     margin: 10px auto 20px 0;
+    opacity: 1;
+    background-color: transparent;
 }
 
 /* Work history */
