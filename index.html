@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rose Odenkirk, online resume. Skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.">
-    <meta name="keywords" content="full stack web developer, software developer, front end, back end, python, javascript, css, html, react, django">
+    <meta name="description"
+        content="Rose Odenkirk, online resume. Skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.">
+    <meta name="keywords"
+        content="full stack web developer, software developer, front end, back end, python, javascript, css, html, react, django">
     <meta name="author" content="Rose Odenkirk">
 
     <title>Rosie Odenkirk | Full Stack Developer</title>
 
     <!-- Bootstrap stylesheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
 
     <!-- Font Awesome stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -27,7 +29,7 @@
 <body>
     <div class="container">
         <!-- flex-column and flex-row classes reverse the heading column order on mobile screens-->
-        <header class="row no-gutters flex-column-reverse flex-md-row">
+        <header class="row g-0 flex-column-reverse flex-md-row">
             <div class="col-12 col-md-4">
                 <table id="contact-details">
                     <tr>
@@ -49,7 +51,7 @@
                 </table>
             </div>
             <div id="name-title-box" class="col-12 col-md-8">
-                <div class="row no-gutters">
+                <div class="row g-0">
                     <div class="col-12 col-lg-6">
                         <h1>Rosie Odenkirk</h1>
                     </div>
@@ -58,8 +60,7 @@
                     </div>
                 </div>
 
-                <!-- Bootstrap navbar -->
-                <nav class="navbar navbar-expand-lg navbar-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark px-2">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -68,8 +69,8 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav justify-content-between w-100">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="resume.html">Resume</a>
@@ -89,9 +90,10 @@
                         </ul>
                     </div>
                 </nav>
+                
             </div>
         </header>
-        <main class="row no-gutters">
+        <main class="row g-0">
             <div class="col-12 col-md-4">
                 <div id="photo" title="Rosie Odenkirk"></div>
             </div>
@@ -178,8 +180,8 @@
                     <div class="col-4 col-lg-2 skill"><i class="fab fa-python"></i>
                         <h5>Python</h5>
                     </div>
-                    <div class="col-4 col-lg-2 skill"><img src="assets/images/django-icon.png" width="35"
-                            height="35" alt="django logo">
+                    <div class="col-4 col-lg-2 skill"><img src="assets/images/django-icon.png" width="35" height="35"
+                            alt="django logo">
                         <h5>Django</h5>
                     </div>
                     <div class="col-4 col-lg-2 skill"><i class="fab fa-react"></i>
@@ -196,12 +198,9 @@
         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
 
-    <!-- Bootstrap scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous">
     </script>
 
 </body>
