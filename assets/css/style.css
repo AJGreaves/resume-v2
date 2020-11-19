@@ -289,6 +289,7 @@ hr {
 
 label {
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #submit-btn {
@@ -424,7 +425,8 @@ footer h4, .left-side-grey-box h4 {
     padding: 1rem;
 }
 
-a:hover {
+/* remove underline from links in both normal and hover states */
+a, a:hover {
     text-decoration: none;
 }
 

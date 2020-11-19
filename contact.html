@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rose Odenkirk, online resume. Skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.">
-    <meta name="keywords" content="full stack web developer, software developer, front end, back end, python, javascript, css, html, react, django">
+    <meta name="description"
+        content="Rose Odenkirk, online resume. Skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.">
+    <meta name="keywords"
+        content="full stack web developer, software developer, front end, back end, python, javascript, css, html, react, django">
     <meta name="author" content="Rose Odenkirk">
 
     <title>Rosie Odenkirk | Contact</title>
@@ -118,26 +120,22 @@
                         {{contact_name}}
                     -->
                     <form id="contact-form">
-                        <div class="form-row">
+                        <div class="row g-3 mb-3">
                             <div class="col-12 col-lg-6">
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control" id="name" name="contact_name" required>
-                                </div>
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="contact_name" required>
                             </div>
                             <div class="col-12 col-lg-6">
-                                <div class="form-group">
-                                    <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" name="contact_email" required>
-                                </div>
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="contact_email" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="7" name="contact_message"
+                                    required></textarea>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="7" name="contact_message"
-                                required></textarea>
-                        </div>
-                        <button id="submit-btn" type="submit" aria-label="Send message">
+                        <button id="submit-btn" class="m-2" type="submit" aria-label="Send message">
                             <i class="far fa-paper-plane spin-icon"></i> Send</button>
                     </form>
                 </div>
@@ -196,7 +194,8 @@
                     <div class="col-4 col-lg-2 skill"><i class="fab fa-python"></i>
                         <h5>Python</h5>
                     </div>
-                    <div class="col-4 col-lg-2 skill"><img src="assets/images/django-icon.png" width="35" height="35" alt="django logo">
+                    <div class="col-4 col-lg-2 skill"><img src="assets/images/django-icon.png" width="35" height="35"
+                            alt="django logo">
                         <h5>Django</h5>
                     </div>
                     <div class="col-4 col-lg-2 skill"><i class="fab fa-react"></i>
