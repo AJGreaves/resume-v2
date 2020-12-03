@@ -10,7 +10,7 @@
 /* Variables for brand colors and fonts */
 :root {
     --accent-color: #d85600;
-    --dark-color: #616161;
+    --dark-color: #3a3a3a;
     --darker-color: #464646;
     --medium-color: #c5c5c5;
 
@@ -124,21 +124,18 @@ nav {
 
 /* Three reasons */
 
-.heading-box-wrapper {
+.heading-box {
     margin: 2rem;
-    padding: 5px;
-    background-color: var(--dark-color);
+    padding: 10px 20px;
+    color: var(--dark-color);
     display: inline-block;
+    border: 1px solid var(--accent-color);
 }
 
-.grey-box-heading {
-    padding: .5rem 1.5rem;
-    border: 1px solid white;
-    margin-bottom: 0;
-    color: white;
+.heading-box > h2 {
     text-transform: uppercase;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
+    margin: 0;
+    font-weight: bold;
 }
 
 .content-column {
@@ -302,6 +299,7 @@ label {
     -webkit-transition: 0.25s ease-in-out;
     -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
+    border: none;
 }
 
 #submit-btn:hover {
