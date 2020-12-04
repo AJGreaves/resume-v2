@@ -9,7 +9,7 @@
 
 /* Variables for brand colors and fonts */
 :root {
-    --accent-color: #d85600;
+    --accent-color: #d65600;
     --dark-color: #3a3a3a;
     --darker-color: #464646;
     --medium-color: #c5c5c5;
@@ -226,8 +226,8 @@ hr {
     text-align: left;
     padding-left: 1.5rem;
     font-size: 1rem;
-    background-color: var(--medium-color);
-    color: var(--darker-color);
+    background-color: rgba(216, 86, 0, 1);
+    color: white;
     font-weight: bold;
 }
 
