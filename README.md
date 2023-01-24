@@ -8,6 +8,7 @@ An updated version of the Rosie Resume project for Code Institute
 - [AutoPrefixer](https://autoprefixer.github.io/) to make sure all CSS prefixes for different browsers were applied.
 - [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator) to validate all CSS
 - [W3C Markup Validator](https://validator.w3.org/) to validate all HTML
+- [Colour picker](https://imagecolorpicker.com/en) to pick out colors from photo for website palette.
 
 
 ## Libraries
