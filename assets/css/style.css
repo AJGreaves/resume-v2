@@ -9,10 +9,12 @@
 
 /* Variables for brand colors and fonts */
 :root {
-    --accent-color: #d65600;
-    --dark-color: #3a3a3a;
-    --darker-color: #464646;
-    --medium-color: #c5c5c5;
+    --accent-color: #940413;
+    --darker-color: #171b1c;
+    --dark-color: #0c1d31;
+    --medium-color: #496c93;
+    --medium-shade-1: #6a3b22;
+    --medium-shade-2: #915833;
 
     --main-font: 'Open Sans', sans-serif;
     --heading-font: 'Raleway', sans-serif;
@@ -102,7 +104,7 @@ nav {
     margin-top: 70px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: 500;
     background-color: var(--darker-color);
 }
 
@@ -114,8 +116,6 @@ nav {
     background-image: url('../images/rosie.webp');
     background-size: cover;
     background-position: center center;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
 }
 
 #description {
@@ -226,9 +226,20 @@ hr {
     text-align: left;
     padding-left: 1.5rem;
     font-size: 1rem;
-    background-color: rgba(216, 86, 0, 1);
     color: white;
     font-weight: bold;
+}
+
+.progress-bar-shade-1 {
+    background-color: var(--medium-color);
+}
+
+.progress-bar-shade-2 {
+    background-color: var(--medium-shade-1);
+}
+
+.progress-bar-shade-3 {
+    background-color: var(--accent-color);
 }
 
 /* Interests page */
